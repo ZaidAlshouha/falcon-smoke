@@ -281,7 +281,7 @@ export default function Home() {
 <section className="brand-statement" aria-label="FalconSmoke statement">
   <FalconMark />
   <p>Premium Quality</p>
-  <h2>أسود عميق. ذهب هادئ. تجربة لا تحتاج إلى ضجيج.</h2>
+<h2>من المعسل إلى الأرجيلة والمستلزمات... الجودة تبدأ من FalconSmoke.</h2>
 </section>
 
 <Collection
