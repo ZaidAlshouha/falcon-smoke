@@ -135,7 +135,7 @@ const hookahs: Product[] = [
   },
 ];
 
-const accessories: Product[] = [
+const const vapes: Product[]= [
   { name: "كراون بار بطيخ", description: "نكهة بطيخ منعشة ضمن تصميم مدمج وسهل الحمل.", image: "/products/01.jpeg" },
   { name: "كراون بار مانجا آيس", description: "مانجا استوائية بلمسة باردة وانتعاش واضح.", image: "/products/02.jpeg" },
   { name: "كراون بار كشمش", description: "نكهة كشمش غنية بطابع فاكهي مميز.", image: "/products/03.jpeg" },
@@ -143,7 +143,58 @@ const accessories: Product[] = [
   { name: "كراون بار مانجا", description: "مانجا ناضجة بحلاوة متوازنة ونهاية ناعمة.", image: "/products/05.jpeg" },
   { name: "مزايا ديب كلاود", description: "تشكيلة نكهات متنوعة لمحبي الخيارات العملية.", image: "/products/06.jpeg" },
 ];
-
+const accessories: Product[] = [
+  {
+    name: "مشعل فحم",
+    description: "مشعل غاز قوي لإشعال الفحم بسرعة وسهولة.",
+    image: "/products/مشعل فحم متنقل.jpeg",
+  },
+  {
+    name: "شبك فحم فضي",
+    description: "شبك معدني لحمل الفحم أثناء التسخين.",
+    image: "/products/شبك ارجيلة فضي.jpeg",
+  },
+  {
+    name: "شبك فحم ذهبي",
+    description: "شبك ذهبي أنيق لتسخين الفحم بأمان.",
+    image: "/products/شبك ارجيلة ذهبي.jpeg",
+  },
+  {
+    name: "مشبك فحم",
+    description: "ملقط معدني للإمساك بالفحم الساخن.",
+    image: "/products/مشبك شواء.jpeg",
+  },
+  {
+    name: "رأس أرجيلة",
+    description: "رأس فخار عالي الجودة.",
+    image: "/products/رأس ارجيلة.jpeg",
+  },
+  {
+    name: "رأس أرجيلة ملوكي",
+    description: "رأس فاخر بتصميم مميز.",
+    image: "/products/رأس ارجيلة ملوكي.jpeg",
+  },
+  {
+    name: "قصدير سونج",
+    description: "قصدير أصلي عالي الجودة.",
+    image: "/products/قصدير سونج.jpeg",
+  },
+  {
+    name: "جلدة رأس",
+    description: "جلدة مطاطية لتثبيت الرأس.",
+    image: "/products/جلدة راس.jpeg",
+  },
+  {
+    name: "فرشاة تنظيف",
+    description: "فرشاة لتنظيف الأرجيلة.",
+    image: "/products/فرشاة تنظيف.jpeg",
+  },
+  {
+    name: "صحن أرجيلة",
+    description: "صحن معدني فاخر.",
+    image: "/products/صحن ارجيلة.jpeg",
+  },
+];
 const allProductCount = molasses.length + charcoal.length + hookahs.length + accessories.length;
 
 function ProductCard({ product, index }: { product: Product; index: number }) {
@@ -210,18 +261,52 @@ export default function Home() {
         <AnimatedCounter value={100} suffix="%" label="طلب مباشر عبر واتساب" />
       </section>
 
-      <Collection id="molasses" eyebrow="01 · معسل" title="نكهات بطابع فاخر" text="أسماء المعسل مأخوذة من الصور نفسها، مع عرض نظيف يضع المنتج في واجهة راقية وسهلة الطلب." products={molasses} />
-      <Collection id="charcoal" eyebrow="02 · فحم" title="حرارة ثابتة لجلسة أطول" text="اختيارات عملية للفحم والمكعبات، مع وصول سريع للتواصل والطلب عبر واتساب." products={charcoal} compact />
+     <Collection
+  id="molasses"
+  eyebrow="01 · معسل"
+  title="نكهات بطابع فاخر"
+  text="أسماء المعسل مأخوذة من الصور نفسها، مع عرض نظيف يضع المنتج في واجهة راقية وسهلة الطلب."
+  products={molasses}
+/>
 
-      <section className="brand-statement" aria-label="FalconSmoke statement">
-        <FalconMark />
-        <p>Premium Quality</p>
-        <h2>أسود عميق. ذهب هادئ. تجربة لا تحتاج إلى ضجيج.</h2>
-      </section>
+<Collection
+  id="charcoal"
+  eyebrow="02 · فحم"
+  title="حرارة ثابتة لجلسة أطول"
+  text="اختيارات عملية للفحم والمكعبات، مع وصول سريع للتواصل والطلب عبر واتساب."
+  products={charcoal}
+  compact
+/>
 
-      <Collection id="hookahs" eyebrow="03 · أراجيل" title="أراجيل فاخرة بلا أسماء موديلات" text="كل قطعة تحمل العنوان المطلوب: أرجيلة فاخرة، مع وصف تسويقي فريد يحافظ على فخامة العرض." products={hookahs} />
-      <Collection id="accessories" eyebrow="04 · مستلزمات التدخين" title="تفاصيل تكمل الجلسة" text="مستلزمات مختارة بعرض أنيق، وصور المنتجات الأصلية محفوظة كما هي داخل الموقع." products={accessories} />
+<section className="brand-statement" aria-label="FalconSmoke statement">
+  <FalconMark />
+  <p>Premium Quality</p>
+  <h2>أسود عميق. ذهب هادئ. تجربة لا تحتاج إلى ضجيج.</h2>
+</section>
 
+<Collection
+  id="hookahs"
+  eyebrow="03 · أراجيل"
+  title="أراجيل فاخرة"
+  text="مجموعة مختارة من الأراجيل الفاخرة بأفضل التصاميم والجودة."
+  products={hookahs}
+/>
+
+<Collection
+  id="vapes"
+  eyebrow="04 · Vapes"
+  title="Vapes"
+  text="تشكيلة من أجهزة الفيب والنكهات المختارة."
+  products={vapes}
+/>
+
+<Collection
+  id="accessories"
+  eyebrow="05 · مستلزمات"
+  title="مستلزمات الأرجيلة"
+  text="كل ما تحتاجه لجلسة أرجيلة متكاملة من رؤوس، فحم، مشاعل، فرش، قصدير وغيرها."
+  products={accessories}
+/>
       <section className="contact-section section-shell" id="contact" aria-labelledby="contact-title">
         <div className="contact-card reveal">
           <div className="contact-copy">

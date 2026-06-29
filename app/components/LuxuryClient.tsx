@@ -27,9 +27,14 @@ const navItems = [
     label: "أراجيل",
   },
   {
-    id: "accessories",
-    href: "#accessories",
-    label: "مستلزمات",
+  id: "vapes",
+  href: "#vapes",
+  label: "Vapes",
+  },
+  {
+  id: "accessories",
+  href: "#accessories",
+  label: "مستلزمات",
   },
   {
     id: "contact",
