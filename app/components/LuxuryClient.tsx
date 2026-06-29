@@ -1,7 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-
+type Product = {
+  name: string;
+  description: string;
+  image: string;
+};
 const wa = "https://wa.me/962777961408";
 
 const charcoal: Product[] = [
