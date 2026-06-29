@@ -14,8 +14,21 @@ const molasses: Product[] = [
 ];
 
 const charcoal: Product[] = [
-  { name: "فحم مكعبات فاخر", description: "حرارة ثابتة واحتراق متوازن لجلسة أطول بطعم أنقى.", image: "/products/24.jpeg" },
-  { name: "فحم أرجيلة مختار", description: "مكعبات متماسكة ومناسبة للجلسات اليومية.", image: "/products/20.jpeg" },
+  {
+    name: "فحم Golden Clouds سلندر",
+    description: "فحم طبيعي سلندر بحرارة ثابتة واحتراق طويل.",
+    image: "/products/39.jpeg",
+  },
+  {
+    name: "فحم Golden Clouds ",
+    description: "عبوات احترافية مناسبة للمقاهي والاستخدام اليومي.",
+    image: "/products/40.jpeg",
+  },
+  {
+    name: "فحم Golden Clouds ",
+    description: "فحم طبيعي عالي الجودة بطعم نقي ومدة احتراق ممتازة.",
+    image: "/products/41.jpeg",
+  },
 ];
 
 const hookahs: Product[] = [
