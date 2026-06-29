@@ -1,34 +1,42 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+
 type Product = {
   name: string;
   description: string;
   image: string;
 };
+
 const wa = "https://wa.me/962777961408";
 
-const charcoal: Product[] = [
+const navItems = [
   {
-    name: "Golden Clouds Cylinder",
-    description:
-      "فحم سلندر طبيعي من Golden Clouds يتميز بحرارة ثابتة واحتراق طويل دون التأثير على نكهة المعسل.",
-    image: "/products/39.jpeg",
+    id: "molasses",
+    href: "#molasses",
+    label: "معسل",
   },
   {
-    name: "Golden Clouds 5KG",
-    description:
-      "عبوات اقتصادية بجودة احترافية مناسبة للمقاهي والاستخدام اليومي مع أداء ثابت ودخان نقي.",
-    image: "/products/40.jpeg",
+    id: "charcoal",
+    href: "#charcoal",
+    label: "فحم",
   },
   {
-    name: "Golden Clouds Premium",
-    description:
-      "فحم طبيعي عالي الكثافة سريع الاشتعال، يدوم لفترة أطول ويمنح جلسة هادئة ومتوازنة.",
-    image: "/products/41.jpeg",
+    id: "hookahs",
+    href: "#hookahs",
+    label: "أراجيل",
+  },
+  {
+    id: "accessories",
+    href: "#accessories",
+    label: "مستلزمات",
+  },
+  {
+    id: "contact",
+    href: "#contact",
+    label: "تواصل",
   },
 ];
-
 
 export function FalconMark({ small = false }: { small?: boolean }) {
   return (
