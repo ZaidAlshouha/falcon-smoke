@@ -19,14 +19,107 @@ const charcoal: Product[] = [
 ];
 
 const hookahs: Product[] = [
-  { name: "أرجيلة فاخرة", description: "زجاج أزرق عميق وتفاصيل سوداء تمنح جلستك حضورًا استثنائيًا.", image: "/products/08.jpeg" },
-  { name: "أرجيلة فاخرة", description: "توليفة الأسود والذهبي بتصميم عملي وحقيبة أنيقة.", image: "/products/09.jpeg" },
-  { name: "أرجيلة فاخرة", description: "هيكل انسيابي بلمسات زرقاء لافتة وقاعدة كريستالية.", image: "/products/10.jpeg" },
-  { name: "أرجيلة فاخرة", description: "لون نحاسي دافئ وقاعدة زجاجية منحوتة لعشاق الفخامة الهادئة.", image: "/products/20.jpeg" },
-  { name: "أرجيلة فاخرة", description: "تصميم بنفسجي عصري يجمع بين الأداء القوي والمظهر الجريء.", image: "/products/22.jpeg" },
-  { name: "أرجيلة فاخرة", description: "ذهبي مصقول مع زجاج وردي وتفاصيل فنية تخطف الأنظار.", image: "/products/23.jpeg" },
-  { name: "أرجيلة فاخرة", description: "قاعدة شفافة وهيكل داكن بتباين أنيق يناسب كل جلسة.", image: "/products/24.jpeg" },
-  { name: "أرجيلة فاخرة", description: "لمسات حمراء لامعة وقاعدة مزخرفة لإطلالة نابضة بالحياة.", image: "/products/25.jpeg" },
+  {
+    name: "Blue Crystal",
+    description: "زجاج أزرق عميق وتفاصيل سوداء تمنح جلستك حضورًا استثنائيًا.",
+    image: "/products/08.jpeg",
+  },
+  {
+    name: "Black Gold",
+    description: "توليفة الأسود والذهبي بتصميم عملي وحقيبة أنيقة.",
+    image: "/products/09.jpeg",
+  },
+  {
+    name: "Ocean Blue",
+    description: "هيكل انسيابي بلمسات زرقاء لافتة وقاعدة كريستالية.",
+    image: "/products/10.jpeg",
+  },
+  {
+    name: "Copper Classic",
+    description: "لون نحاسي دافئ وقاعدة زجاجية منحوتة لعشاق الفخامة الهادئة.",
+    image: "/products/20.jpeg",
+  },
+  {
+    name: "Purple Edition",
+    description: "تصميم بنفسجي عصري يجمع بين الأداء القوي والمظهر الجريء.",
+    image: "/products/22.jpeg",
+  },
+  {
+    name: "Rose Gold",
+    description: "ذهبي مصقول مع زجاج وردي وتفاصيل فنية تخطف الأنظار.",
+    image: "/products/23.jpeg",
+  },
+  {
+    name: "Dark Crystal",
+    description: "قاعدة شفافة وهيكل داكن بتباين أنيق يناسب كل جلسة.",
+    image: "/products/24.jpeg",
+  },
+  {
+    name: "Ruby Red",
+    description: "لمسات حمراء لامعة وقاعدة مزخرفة لإطلالة نابضة بالحياة.",
+    image: "/products/25.jpeg",
+  },
+
+  {
+    name: "Classic Brass",
+    description: "تصميم نحاسي أنيق بقاعدة كريستالية يمنح جلسة راقية تجمع بين الأصالة والفخامة.",
+    image: "/products/27.jpeg",
+  },
+  {
+    name: "Falcon Yellow",
+    description: "لمسات صفراء جريئة وهيكل أسود فاخر لعشاق التميز والإطلالة العصرية.",
+    image: "/products/28.jpeg",
+  },
+  {
+    name: "Golden Heritage",
+    description: "نقوش عربية أصيلة وهيكل ذهبي فاخر يمنح جلسة بطابع شرقي مميز.",
+    image: "/products/29.jpeg",
+  },
+  {
+    name: "Falcon Gold",
+    description: "تصميم فاخر بتفاصيل ذهبية يمنح حضورًا قويًا ويعكس هوية FalconSmoke.",
+    image: "/products/30.jpeg",
+  },
+  {
+    name: "Black Crystal Elite",
+    description: "لون أسود مطفي مع قاعدة شفافة يمنح مظهرًا راقيًا وأداءً ثابتًا.",
+    image: "/products/31.jpeg",
+  },
+  {
+    name: "Royal Horse",
+    description: "هيكل مزخرف مع تصميم حصان ذهبي لمحبي القطع الفريدة والملفتة.",
+    image: "/products/32.jpeg",
+  },
+  {
+    name: "Golden Prestige",
+    description: "تفاصيل ذهبية ونقوش دقيقة تعكس الفخامة الكلاسيكية في كل جلسة.",
+    image: "/products/33.jpeg",
+  },
+  {
+    name: "Royal Horse Premium",
+    description: "إصدار فاخر يجمع بين التصميم التراثي والأداء الاحترافي.",
+    image: "/products/34.jpeg",
+  },
+  {
+    name: "Falcon Signature",
+    description: "هيكل نحاسي متناسق مع قاعدة مزخرفة يمنح تجربة متكاملة لعشاق الأرجيلة.",
+    image: "/products/35.jpeg",
+  },
+  {
+    name: "Luxury Black",
+    description: "مزيج من الأسود والذهبي بتفاصيل أنيقة تمنح حضورًا استثنائيًا.",
+    image: "/products/36.jpeg",
+  },
+  {
+    name: "Royal Horse Elite",
+    description: "تصميم فاخر بلمسات فنية ونقوش معدنية تعكس جودة التصنيع العالية.",
+    image: "/products/37.jpeg",
+  },
+  {
+    name: "Classic Royal",
+    description: "تصميم نحاسي كلاسيكي بقاعدة مزخرفة يجمع بين الأناقة والأداء الموثوق.",
+    image: "/products/38.jpeg",
+  },
 ];
 
 const accessories: Product[] = [
