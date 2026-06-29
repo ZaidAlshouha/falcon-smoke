@@ -124,7 +124,7 @@ export default function Home() {
             <p>مخيم الشهيد - السوق الجنوبي - تحت عيادة الدكتور أحمد الشلبي - مقابل الفوارس لمواد البناء</p>
             <div className="contact-list">
               <a href="tel:0777961408"><small>Phone</small><b dir="ltr">0777961408</b></a>
-              <a href="https://www.facebook.com/FalconSmoke" target="_blank" rel="noreferrer"><small>Facebook</small><b>FalconSmoke</b></a>
+              <a href="https://www.facebook.com/profile.php?id=100080169502566&mibextid=wwXIfr&rdid=5Lm7yxEoMPY9FQUd&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1YNwGHTgsS%2F%3Fmibextid%3DwwXIfr#" target="_blank" rel="noreferrer"><small>Facebook</small><b>FalconSmoke</b></a>
               <a href="https://www.instagram.com/falcon_smoke" target="_blank" rel="noreferrer"><small>Instagram</small><b>falcon_smoke</b></a>
             </div>
             <a className="primary-cta contact-cta" href={wa} target="_blank" rel="noreferrer"><WhatsAppIcon /> ابدأ المحادثة الآن</a>
