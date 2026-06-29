@@ -135,7 +135,7 @@ const hookahs: Product[] = [
   },
 ];
 
-const const vapes: Product[]= [
+const vapes: Product[]= [
   { name: "كراون بار بطيخ", description: "نكهة بطيخ منعشة ضمن تصميم مدمج وسهل الحمل.", image: "/products/01.jpeg" },
   { name: "كراون بار مانجا آيس", description: "مانجا استوائية بلمسة باردة وانتعاش واضح.", image: "/products/02.jpeg" },
   { name: "كراون بار كشمش", description: "نكهة كشمش غنية بطابع فاكهي مميز.", image: "/products/03.jpeg" },
